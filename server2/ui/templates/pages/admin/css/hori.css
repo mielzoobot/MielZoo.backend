@@ -1,0 +1,28 @@
+#about > div > div.row > div > p  {
+    font-size: large;
+}
+
+.typewrite,
+#contact > div > div > div > p {
+    font-size: x-large;
+}
+
+#contact > div > div > div.col-lg-4.mr-auto > p > a {
+    color: #fff;
+}
+
+
+
+.icoDeviantArt:hover { color: #05CC47; }
+.icoFacebook:hover { color: #3B5998; }
+.icoGitHub:hover { color: #211F1F; }
+.icoInstagram:hover { color: #C13584; }
+.icoLinkedIn:hover { color: #2867B2; }
+.icoMastodon:hover { color: #563ACC; }
+.icoNexus:hover { color: #DA8E35; }
+.icoPixelfed:hover { color: #DB53A7; }
+.icoSteam:hover { color: #1B2838; }
+.icoTwitter:hover { color: #33CCFF; }
+.bg-dark {
+    background-color: black !important;
+}

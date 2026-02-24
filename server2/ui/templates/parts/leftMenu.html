@@ -1,0 +1,88 @@
+<div class="sidebar">
+    <aside class="menu">
+    <include href="templates/parts/logoAdmin.html" />
+        <ul class="menu-list">
+           
+
+           
+
+            <li>
+                <set HOME_ACTIVE_CLASS="{{ '/' == @CURRENT_PATH ? 'is-active': 'is-normal'}}" />
+                <a class="{{ @HOME_ACTIVE_CLASS }}" href="{{ @BASE }}/">
+                    <include href="images/icons/dashboard.svg" />{{ @LeftMenu_home_link }}
+                </a>
+            </li>
+{***
+           
+***}
+            <li>
+                <set EVENTS_ACTIVE_CLASS="{{ false !== strpos(@CURRENT_PATH, '/event') ? 'is-active': 'is-normal'}}" />
+                <a class="{{ @EVENTS_ACTIVE_CLASS }}" href="http://login.mielzoo.cloud/store/index.php">
+                    <include href="images/icons/desktop.svg" />{{ @LeftMenu_all_events_link }}
+                </a>
+            </li>
+<li>
+                <set WATCHLIST_ACTIVE_CLASS="{{ '/watchlist' == @CURRENT_PATH ? 'is-active': 'is-normal'}}" />
+                <a class="{{@WATCHLIST_ACTIVE_CLASS }}"  href="{{ @BASE }}/watchlist">
+                    <include href="images/icons/smartphone.svg" />{{ @LeftMenu_watchlist_link }}
+                </a>
+            </li>
+            <li>
+                <set USERS_ACTIVE_CLASS="{{ false !== strpos(@CURRENT_PATH, '/id') ? 'is-active': 'is-normal'}}" />
+                <a class="{{ @USERS_ACTIVE_CLASS }}" href="{{ @BASE }}/id">
+                    <include href="images/icons/events.svg" />{{ @LeftMenu_users_link }}
+                </a>
+            </li>
+
+           
+
+            
+
+{***
+           
+***}
+           
+
+            <check if="{{ @ALLOW_EMAIL_PHONE }}">
+            
+{***
+***}
+{***
+            <li>
+                <set USER_AGENTS_ACTIVE_CLASS="{{ false !== strpos(@CURRENT_PATH, '/user-agent') ? 'is-active': 'is-normal'}}" />
+                <a class="{{ @USER_AGENTS_ACTIVE_CLASS }}" href="{{ @BASE }}/user-agent">
+                    <include href="images/icons/bot.svg" />{{ @LeftMenu_user_agents_link }}
+                </a>
+            </li>
+***}
+           
+{***
+            <li>
+                <set MANUAL_CHECK_ACTIVE_CLASS="{{ false !== strpos(@CURRENT_PATH, '/manual-check' ? 'is-active': 'is-normal' }}" />
+                <a class="{{@MANUAL_CHECK_ACTIVE_CLASS}}" href="{{ @BASE }}/manual-check">
+                    <include href="images/icons/search.svg" />{{ @LeftMenu_manual_check_link }}
+                </a>
+            </li>
+***}
+          
+
+           
+            <li>
+                <set SETTINGS_ACTIVE_CLASS="{{ '/settings' == @CURRENT_PATH ? 'is-active': 'is-normal'}}" />
+                <a class="{{@SETTINGS_ACTIVE_CLASS }}"  href="{{ @BASE }}/settings">
+                    <include href="images/icons/settings.svg" />{{ @LeftMenu_settings_link }}
+                </a>
+            </li>
+
+           
+
+            <li>
+                <a class="is-normal" href="{{ @BASE }}/logout">
+                    <include href="images/icons/logout.svg" />{{ @LeftMenu_logout_link }}
+                </a>
+            </li>
+
+           
+        </ul>
+    </aside>
+</div>
