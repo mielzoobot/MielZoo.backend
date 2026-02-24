@@ -1,0 +1,92 @@
+<?php
+
+/**
+ * tirreno ~ open-source security framework
+ * Copyright (c) Tirreno Technologies Sàrl (https://www.tirreno.com)
+ *
+ * Licensed under GNU Affero General Public License version 3 of the or any later version.
+ * For full copyright and license information, please see the LICENSE
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Tirreno Technologies Sàrl (https://www.tirreno.com)
+ * @license       https://opensource.org/licenses/AGPL-3.0 AGPL License
+ * @link          https://www.tirreno.com Tirreno(tm)
+ */
+
+declare(strict_types=1);
+
+namespace Tirreno\Utils;
+
+class ApiKeys {
+    public static function getCurrentOperatorApiKeyId(): ?int {
+        $key = self::getCurrentOperatorApiKeyObject();
+
+        return $key ? $key->id : null;
+    }
+
+    public static function getCurrentOperatorApiKeyString(): ?string {
+        $key = self::getCurrentOperatorApiKeyObject();
+
+        return $key ? $key->key : null;
+    }
+
+    public static function getCurrentOperatorEnrichmentKeyString(): ?string {
+        $key = self::getCurrentOperatorApiKeyObject();
+
+        return $key ? $key->token : null;
+    }
+
+    public static function getOperatorApiKeys(int $operatorId): array {
+        $model = new \Tirreno\Models\ApiKeys();
+        $apiKeys = $model->getKeys($operatorId);
+
+        $isOwner = true;
+        if (!$apiKeys) {
+            $coOwnerModel = new \Tirreno\Models\ApiKeyCoOwner();
+            $coOwnerModel->getCoOwnership($operatorId);
+
+            if ($coOwnerModel->loaded()) {
+                $isOwner = false;
+                $apiKeys[] = $model->getKeyById($coOwnerModel->api);
+            }
+        }
+
+        return [$isOwner, $apiKeys];
+    }
+
+    // returns \Tirreno\Models\ApiKeys; in test mode returns object
+    public static function getCurrentOperatorApiKeyObject(): object|null {
+        $currentOperator = \Tirreno\Utils\Routes::getCurrentRequestOperator();
+
+        if (!$currentOperator) {
+            return null;
+        }
+
+        $model = new \Tirreno\Models\ApiKeys();
+
+        //This key specified in the local configuration file and will not applied to the production environment
+        $testId = \Base::instance()->get('TEST_API_KEY_ID');
+        if (isset($testId) && $testId !== '') {
+            return (object) [
+                'id' => $testId,
+                'key' => $model->getKeyById($testId)->key,
+                'skip_blacklist_sync' => true,
+                'token' => $model->getKeyById($testId)->token,
+            ];
+        }
+
+        $operatorId = $currentOperator->id;
+        $key = $model->getKey($operatorId);
+
+        if (!$key) { // Check if operator is co-owner of another API key when it has no own API key.
+            $coOwnerModel = new \Tirreno\Models\ApiKeyCoOwner();
+            $coOwnerModel->getCoOwnership($operatorId);
+
+            if ($coOwnerModel->loaded()) {
+                $key = $model->getKeyById($coOwnerModel->api);
+            }
+        }
+
+        return $key;
+    }
+}
