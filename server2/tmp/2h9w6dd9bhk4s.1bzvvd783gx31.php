@@ -1,0 +1,41 @@
+<?php echo $this->render('templates/parts/header.html',NULL,get_defined_vars(),0); ?>
+<section class="front-block">
+
+    <div class="container">
+        <code><span style="background:#8080AA;color:#2b2a39;">&nbsp;A secret place!&nbsp;</span><br>
+            <?php if (isset($ERROR_DATA)): ?>
+                
+                    <p>* <?= ($ERROR_DATA['message']) ?></p>
+                    <?php if (isset($ERROR_DATA['extra_message'])): ?>
+                    <p>  <?= ($this->raw($ERROR_DATA['extra_message'])) ?></p>
+                    <?php endif; ?>
+                
+            <?php endif; ?>
+        </code>
+        <br>
+        <!-- Cross my heart by KilledByAPixel -->
+        <div class="game"><pre id=b></pre></div><script>
+        s=Array(50).fill(' '.repeat(100)).join('\n');
+        b.innerText = s.slice(0,20*101+25) + '[· P R E S S   A N Y    K E Y   T O   S T A R T ·]' + s.slice(20*101+26+22,50*101);
+        document.addEventListener('keydown',start);
+        function start(e){
+        document.removeEventListener('keydown',start);e.preventDefault();e.stopPropagation();
+        X=Y=V=U=Z=t=1;onkeydown=e=>(k=e.which)&1?X-=k-38:Y-=k-39;setInterval("for(++t,o=Z,i=50;i--;)for(b.innerText=o+='\\n',j=99;j--;Y>49?Z+=Y=1:o+=i-Y|j-X-50?q?'·':'▓':q?'♥':Y=1)q=((j+t*Math.sin(A=i>>1)/9*Z>>3)*A*Z)**4%97<89",9);
+
+        // enhanced version...
+        const onkeydownOriginal = onkeydown
+        onkeydown=e=>
+        {
+            // prevent non arrow keys
+            const key = e.which
+            if (key<37 || key>40)
+                return;
+            // call original keydown
+            onkeydownOriginal(e);
+        }
+        }
+        </script>        
+    </div>
+</section>
+
+<?php echo $this->render('templates/parts/footer.html',NULL,get_defined_vars(),0); ?>

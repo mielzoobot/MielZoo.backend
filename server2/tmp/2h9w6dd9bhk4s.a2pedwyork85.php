@@ -1,0 +1,30 @@
+<div class="card events-card" data-item-id="profile-form">
+    <form method="POST" action="<?= ($BASE) ?>/api" id="enrich-all-form">
+        <input type="hidden" name="token" value="<?= ($CSRF) ?>">
+        <input type="hidden" name="cmd" value="enrichAll" />
+        <header class="card-header">
+            <p class="card-header-title"><?= ($AdminApi_manual_enrichment_form_title) ?></p>
+        </header>
+
+        <div class="card-content">
+            <div class="content">
+                <div class="field">
+                    <p><?= ($this->raw($AdminApi_manual_enrichment_form_confirmationMessage)) ?></p>
+                </div>
+            </div>
+        </div>
+
+        <?php $disableButton = true;
+            foreach ($API_KEYS as $key) {
+                if ($key['apiToken'] !== null) {
+                    $disableButton = false;
+                }
+            }
+
+            $disableButton = ($disableButton || !$NOT_CHECKED)? 'disabled' : ''; ?>
+
+        <footer class="card-footer">
+            <input type="submit" class="button is-primary" id="enrich-all-btn" value="<?= ($AdminApi_manual_enrichment_form_button_submit) ?>" <?= ($disableButton) ?>>
+        </footer>
+    </form>
+</div>
