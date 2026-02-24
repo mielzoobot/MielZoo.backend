@@ -1,0 +1,1978 @@
+
+<?php echo $this->render('templates/parts/headerAdmin.html',NULL,get_defined_vars(),0); ?>
+<div id="wrap">
+    <section class="page-section portfolio" id="portfolio" justify-content-center align-items-center style="
+    background-image: url('store/assets/img/portfolio/dcctbfv.jpg');
+    background-size:     cover; !important;                    
+    background-attachment: fixed !important;
+    width:100%;
+    height: 1000px; 
+  ">
+
+    <?php echo $this->render('templates/parts/leftMenu.html',NULL,get_defined_vars(),0); ?>
+  
+
+    <div class="main">
+
+        
+        
+                <!-- Icon Divider-->
+        <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+
+        <link rel="icon" href="store/assets/img/portfolio/Mielzoo2.png">
+        <title></title>
+ <script>
+    var winref;
+
+    function pop1(){
+        winref = window.open('http://stackoverflow.com','popwin','width=640, height=480');
+    }
+
+    function pop2(){
+        window.open('http://google.com','popwin','width=640, height=480');
+
+    }
+
+    function navigate(){
+        winref.location.href="https://developer.mozilla.org/en-US/docs/Web";
+    }
+
+    </script>
+        <!-- JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.12.1/jquery.easing.min.js"></script>
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="" rel="stylesheet" fetchpriority="low"  />
+         <link href="css/admin.all.css" rel="stylesheet" fetchpriority="high" />
+
+        <!-- JS Plugins -->
+        <script src="ui/templates/pages/admin/js/cbpAnimatedHeader.js"></script>
+        <script src="ui/templates/pages/admin/js/portfolio-filter.js"></script>
+        <script src="ui/templates/pages/admin/js/typewriter.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+        <!-- CSS - Plugins -->
+        <link href="css/timeline.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+        <!-- CSS - Customisations -->
+        <link href="css/hori.css" rel="stylesheet">
+
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.2.1/js/all.js" crossorigin="anonymous"></script>
+
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    
+    </head>
+    <body id="page-top" class="index">
+        <a rel="" href=""></a>
+
+        <!-- Navigation-->
+        
+
+        <!-- Masthead-->
+        
+
+        <!-- Portfolio Section-->
+
+        
+            
+                
+                    
+                    <button class="btn btn-primary" >MielZoo Store <p> Cliquez pour accéder aux différentes applications </p> </button>
+                    
+                
+                <!-- Portfolio Grid Items-->
+               
+                    <!-- 2,1 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter mods highlights">
+                        <!-- More Cultural Names -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalMoreCulturalNames">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Modèle Flux de Trésorerie</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- 3,1 -->
+                   
+                        <!-- GeForce NOW for Linux -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalGeForceNowElectron">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">MielZoo Store</div>
+                            </div>
+                            <img class="img-fluid" src="store/Mielzoo2.png" alt="GFNOW" />
+                        </div>
+                    
+                    <!-- 1,2 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter tools highlights">
+                        <!-- IPTV Playlist Aggregator-->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalIptvPlaylistAggregator">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">IPTV Playlist Aggregator</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- 2,2 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter tools highlights">
+                        <!-- Universal Name Generator -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalUniversalNameGenerator">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Universal Name Generator</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- 3,2 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter tools highlights">
+                        <!-- Duolingo Desktop -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalDuolingoDesktop">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Duolingo Desktop</div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <!-- 1,3 -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 wow animate__animated animate__bounceIn filter tools">
+                        <!-- Bitwarden Vault Manager -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalBitwardenVaultManager">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Bitwarden Vault Manager</div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <!-- 2,3 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter tools">
+                        <!-- Transliteration API -->
+                        
+                    </div>
+                    <!-- 1,4 -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 wow animate__animated animate__bounceIn filter games">
+                        <!-- Memory Blocks -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalMemoryBlocks">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Memory Blocks</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- 2,4 -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0 wow animate__animated animate__bounceIn filter games">
+                        <!-- SokoGrump-->
+                        
+                    <!-- 3,4 -->
+                    <div class="col-md-6 col-lg-4 wow animate__animated animate__bounceIn filter games">
+                        <!-- Minesweeper-->
+                        
+                </div>
+            </div>
+        </section>
+
+  
+        <!-- Footer-->
+      
+        <!-- Copyright Section-->
+        
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- Portfolio Modal: Backgammon-->
+        <div class="portfolio-modal modal fade" id="portfolioModalBackgammon" tabindex="-1" role="dialog" aria-labelledby="portfolioModalBackgammonLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalBackgammonLabel">Backgammon by Horațiu</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/backgammon.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Open-source reimplementation of one of the oldest known board games.</p>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-chess-rook"></i>
+                                                <h3>Strategy</h3>
+                                                <p class="text-muted">A very strategic game for the people who enjoy playing games where you have to plan two steps ahead</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-paint-brush"></i>
+                                                <h3>Stylish</h3>
+                                                <p class="text-muted">Lovely and simplistic art style to preserve your concentration and offer a more relaxing experience</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>
+                                            Source
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET, Mono, GTK2</strong></li>
+                                        <li>Operating Systems: <strong>Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Bitwarden Vault Manager -->
+        <div class="portfolio-modal modal fade" id="portfolioModalBitwardenVaultManager" tabindex="-1" role="dialog" aria-labelledby="portfolioModalBitwardenVaultManagerLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalBitwardenVaultManagerLabel">Bitwarden Vault Manager</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/bitwarden-vault-manager.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>An CLI interface for managing your Bitwarden vault by analysing the data and finding the weak spots.</p>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fab fa-fw fa-github"></i>Source</a>
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fas fa-fw fa-download"></i>Download</a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core, CLI</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Duolingo Desktop -->
+        <div class="portfolio-modal modal fade" id="portfolioModalDuolingoDesktop" tabindex="-1" role="dialog" aria-labelledby="portfolioModalDuolingoDesktopLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalDuolingoDesktopLabel">Duolingo Desktop</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/duolingo-desktop.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>A Linux Desktop client for the Duolingo language learning application.</p>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>Source
+                                        </a>
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fas fa-fw fa-download"></i>Download
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>JavaScript</strong></li>
+                                        <li>Technologies: <strong>Electron</strong></li>
+                                        <li>Operating Systems: <strong>Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: GeForce NOW for Linux-->
+        <div class="portfolio-modal modal fade" id="portfolioModalGeForceNowElectron" tabindex="-1" role="dialog" aria-labelledby="portfolioModalGeForceNowElectronLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalGeForceNowElectronLabel">GeForce NOW Electron</h2>
+                                    <!-- mz store-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+
+        <link rel="icon" href="https://dashboard.mielzoostore.cloud/ressources/img/Mielzoo2.png">
+        <title></title>
+ <script>
+    var winref;
+
+    function pop1(){
+        winref = window.open('http://stackoverflow.com','popwin','width=640, height=480');
+    }
+
+    function pop2(){
+        window.open('http://google.com','popwin','width=640, height=480');
+
+    }
+
+    function navigate(){
+        winref.location.href="https://developer.mozilla.org/en-US/docs/Web";
+    }
+
+    </script>
+        <!-- JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.12.1/jquery.easing.min.js"></script>
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="" rel="stylesheet" fetchpriority="low"  />
+         <link href="css/admin.all.css" rel="stylesheet" fetchpriority="high" />
+
+        <!-- JS Plugins -->
+        <script src="js/cbpAnimatedHeader.js"></script>
+        <script src="js/portfolio-filter.js"></script>
+        <script src="js/typewriter.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+        <!-- CSS - Plugins -->
+        <link href="css/timeline.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+        <!-- CSS - Customisations -->
+        <link href="css/hori.css" rel="stylesheet">
+
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.2.1/js/all.js" crossorigin="anonymous"></script>
+
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    
+    </head>
+    <body id="page-top" class="index">
+        <a rel="" href=""></a>
+
+       
+             
+
+
+
+                    </div>
+            </div>
+        </nav>
+
+        <!-- Masthead-->
+       
+
+        <!-- Portfolio Section-->
+
+        <section class="page-section portfolio" id="portfolio" justify-content-center align-items-center style="
+    background-image: url('https://mielzoostore.cloud/dcctbfv.jpg');
+    background-size:100%;
+  ">
+            <div class="container bg-image">
+                <!-- Portfolio Section Heading-->
+                
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                
+                </div>
+                <div class="divider-custom">
+                    
+                    <button class="btn filter-button btn-primary" data-filter="highlights">Ressources Humaines</button>
+                    <button class="btn filter-button" data-filter="games">Gestion</button>
+                    <button class="btn filter-button" data-filter="mods">Direction</button>
+                    <button class="btn filter-button" data-filter="tools">Exploitation</button>
+                    <button class="btn filter-button" data-filter="tools1">Commercial</button>
+                    <button class="btn filter-button" data-filter="tools2">Comptabilité</button>
+                    <button class="btn filter-button" data-filter="tools3">Marketing</button>
+                    <button class="btn filter-button" data-filter="tools4">Logistique</button>
+                    <button class="btn filter-button" data-filter="tools5">Réseaux Sociaux</button>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div id="portfolio-gallery" class="row justify-content-center">
+                    <!-- 1,1 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter games highlights">
+                        <!-- Narivia-->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalNarivia">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Application nummero 1</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/giphy.gif" alt="Narivia" />
+                        </div>
+                    </div>
+                    <!-- 2,1 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter mods highlights">
+                        <!-- More Cultural Names -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalMoreCulturalNames">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Modèle Flux de Trésorerie</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/more-cultural-names.png" alt=" Cultural Names" />
+                        </div>
+                    </div>
+                    <!-- 3,1 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter tools highlights">
+                        <!-- GeForce NOW for Linux -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalGeForceNowElectron">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">GeForce NOW for Linux</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/geforcenow-electron.png" alt="GeForce NOW for Linux" />
+                        </div>
+                    </div>
+                    <!-- 1,2 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter tools highlights">
+                        <!-- IPTV Playlist Aggregator-->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalIptvPlaylistAggregator">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">IPTV Playlist Aggregator</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/iptv-playlist-aggregator.png" alt="IPTV Playlist Aggregator" />
+                        </div>
+                    </div>
+                    <!-- 2,2 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter tools highlights">
+                        <!-- Universal Name Generator -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalUniversalNameGenerator">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Universal Name Generator</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/universal-name-generator.png" alt="Universal Name Generator" />
+                        </div>
+                    </div>
+                    <!-- 3,2 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter tools highlights">
+                        <!-- Duolingo Desktop -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalDuolingoDesktop">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Duolingo Desktop</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/duolingo-desktop.png" alt="Duolingo Desktop" />
+                        </div>
+                    </div>
+                    <!-- 1,3 -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 wow animate__animated animate__bounceIn filter tools">
+                        <!-- Bitwarden Vault Manager -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalBitwardenVaultManager">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Bitwarden Vault Manager</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/bitwarden-vault-manager.png" alt="Bitwarden Vault Manager" />
+                        </div>
+                    </div>
+                    <!-- 2,3 -->
+                    <div class="col-md-6 col-lg-4 mb-5 wow animate__animated animate__bounceIn filter tools">
+                        <!-- Transliteration API -->
+                        
+                    </div>
+                    <!-- 1,4 -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 wow animate__animated animate__bounceIn filter games">
+                        <!-- Memory Blocks -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalMemoryBlocks">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Memory Blocks</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/memoryblocks.png" alt="Memory Blocks" />
+                        </div>
+                    </div>
+                    <!-- 2,4 -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0 wow animate__animated animate__bounceIn filter games">
+                        <!-- SokoGrump-->
+                        
+                    <!-- 3,4 -->
+                    <div class="col-md-6 col-lg-4 wow animate__animated animate__bounceIn filter games">
+                        <!-- Minesweeper-->
+                        
+                </div>
+            </div>
+        </section>
+
+  
+        <!-- Footer-->
+      
+
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- Portfolio Modal: Backgammon-->
+        <div class="portfolio-modal modal fade" id="portfolioModalBackgammon" tabindex="-1" role="dialog" aria-labelledby="portfolioModalBackgammonLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalBackgammonLabel">Backgammon by Horațiu</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/backgammon.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Open-source reimplementation of one of the oldest known board games.</p>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-chess-rook"></i>
+                                                <h3>Strategy</h3>
+                                                <p class="text-muted">A very strategic game for the people who enjoy playing games where you have to plan two steps ahead</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-paint-brush"></i>
+                                                <h3>Stylish</h3>
+                                                <p class="text-muted">Lovely and simplistic art style to preserve your concentration and offer a more relaxing experience</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>
+                                            Source
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET, Mono, GTK2</strong></li>
+                                        <li>Operating Systems: <strong>Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Bitwarden Vault Manager -->
+        <div class="portfolio-modal modal fade" id="portfolioModalBitwardenVaultManager" tabindex="-1" role="dialog" aria-labelledby="portfolioModalBitwardenVaultManagerLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalBitwardenVaultManagerLabel">Bitwarden Vault Manager</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/bitwarden-vault-manager.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>An CLI interface for managing your Bitwarden vault by analysing the data and finding the weak spots.</p>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fab fa-fw fa-github"></i>Source</a>
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fas fa-fw fa-download"></i>Download</a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core, CLI</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Duolingo Desktop -->
+        <div class="portfolio-modal modal fade" id="portfolioModalDuolingoDesktop" tabindex="-1" role="dialog" aria-labelledby="portfolioModalDuolingoDesktopLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalDuolingoDesktopLabel">Duolingo Desktop</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/duolingo-desktop.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>A Linux Desktop client for the Duolingo language learning application.</p>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>Source
+                                        </a>
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fas fa-fw fa-download"></i>Download
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>JavaScript</strong></li>
+                                        <li>Technologies: <strong>Electron</strong></li>
+                                        <li>Operating Systems: <strong>Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: GeForce NOW for Linux-->
+        <div class="portfolio-modal modal fade" id="portfolioModalGeForceNowElectron" tabindex="-1" role="dialog" aria-labelledby="portfolioModalGeForceNowElectronLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalGeForceNowElectronLabel">GeForce NOW Electron</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/geforcenow-electron.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>A Linux Desktop client for Nvidia's GeForce NOW game streaming service.</p>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>Source
+                                        </a>
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fas fa-fw fa-download"></i>Download
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>JavaScript</strong></li>
+                                        <li>Technologies: <strong>Electron</strong></li>
+                                        <li>Operating Systems: <strong>Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: IPTV Playlist Aggregator -->
+        <div class="portfolio-modal modal fade" id="portfolioModalIptvPlaylistAggregator" tabindex="-1" role="dialog" aria-labelledby="portfolioModalIptvPlaylistAggregatorLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalIptvPlaylistAggregatorLabel">IPTV Playlist Aggregator</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/iptv-playlist-aggregator.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>A tool for downloading IPTV playlists from multiple web sources and aggregating their channels into a single playlist that can be used on any smart TV.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-wind"></i>
+                                                <h3>Lightweight</h3>
+                                                <p class="text-muted">Consumes minimal system resources</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fab fa-4x fa-raspberry-pi"></i>
+                                                <h3>Raspberry Pi</h3>
+                                                <p class="text-muted">Intended to be ran as a scheduled background service on a Raspberry Pi</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-spinner"></i>
+                                                <h3>In-dev</h3>
+                                                <p class="text-muted">This project is in a continuous state of development and improvement</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>Source
+                                        </a>
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fas fa-fw fa-download"></i>Download
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                        <li>Architectures: <strong>x86_64, ARM, ARM64</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Memory Blocks-->
+        <div class="portfolio-modal modal fade" id="portfolioModalMemoryBlocks" tabindex="-1" role="dialog" aria-labelledby="portfolioModalMemoryBlocksLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalMemoryBlocksLabel">Memory Blocks</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/memoryblocks.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Memory Blocks is a puzzle game similar to the classic Sokoban. It the features the Grumpy Cat trying to push all the crates in a werehouse to their storge locations, without getting stuck.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-puzzle-piece"></i>
+                                                <h3>Puzzle</h3>
+                                                <p class="text-muted">Entertain your mind by remembering and matching flipped tiles</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-paint-brush"></i>
+                                                <h3>Stylish</h3>
+                                                <p class="text-muted">Lovely, simplistic images for your comfort</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-heart"></i>
+                                                <h3>Healthy</h3>
+                                                <p class="text-muted">Improves your memory and dexterity, and offers a relaxing experience</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fab fa-fw fa-github"></i>Source</a>
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fas fa-fw fa-download"></i>Download</a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET, Mono, GTK2</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Minesweeper-->
+        <div class="portfolio-modal modal fade" id="portfolioModalMinesweeper" tabindex="-1" role="dialog" aria-labelledby="portfolioModalMinesweeperLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalMinesweeperLabel">Minesweeper</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/minesweeper.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>
+                                        Minesweeper is a very similar game to the original game with the same name. It was created to fill the gap after the original's
+                                        removal from modern Windows releases.
+                                        <br><br> The objective is to carefully clear all the mines on a rectangular board, without
+                                        detonating them.
+                                    </p>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>
+                                            Source
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET, GTK2</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: More Cultural Names-->
+        <div class="portfolio-modal modal fade" id="portfolioModalMoreCulturalNames" tabindex="-1" role="dialog" aria-labelledby="portfolioModalMoreCulturalNamesLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalMoreCulturalNamesLabel">More Cultural Names</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://miro.medium.com/v2/resize:fit:1400/1*B1bqZL0czNvFYlufrFAnzw.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>This is an ambitious mod for various strategy games, that dynamically changes the place names based on the culture of their ruler.</p>
+                                    <br>
+                                    <p>It is based on a carefully selected list of alternate place names in various languages, across various time periods.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-monument"></i>
+                                                <h3>Authentic</h3>
+                                                <p class="text-muted">The names are authentic and uses the best matches for each game's time period</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-expand"></i>
+                                                <h3>Extensive</h3>
+                                                <p class="text-muted">Contains 150.000+ alternate place names</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-user"></i>
+                                                <h3>Community</h3>
+                                                <p class="text-muted">Community feedback and contributions are instrumental to this mod and its success</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"> </i>Source
+                                        </a>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-steam"></i> Download from Steam
+                                        </a>
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fas fa-compress-arrows-alt"></i> Download from Nexus Mods
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li><strong>Supported games:</strong></li>
+                                        <li>Crusader Kings 2</li>
+                                        <li>Crusader Kings 3</li>
+                                        <li>Hearts of Iron IV</li>
+                                        <li>Imperator: Rome</li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Narivia-->
+        <div class="portfolio-modal modal fade" id="portfolioModalNarivia" tabindex="-1" role="dialog" aria-labelledby="portfolioModalNariviaLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalNariviaLabel">Narivia</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/narivia.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Narivia is a free-to-play turn-based strategy game focused on economy and warfare. It is set in a big part of a fictional world called Narivia, containing it's two main continents.</p>
+                                    <br>
+                                    <p>The player must lead their people to the ultimate victory, by raising the country’s economy and expanding its territories using military force. The enemies will share the same dream and will not give up their territories easily, challenging tactical scenarios that the player must overcome.</p>
+                                    <br>
+                                    <p>The player has at its disposal an array of units and buildings that can be created, each being specific to the faction’s culture.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-chess-rook"></i>
+                                                <h3>Strategy</h3>
+                                                <p class="text-muted">Offers a classic 4x turn-based strategy game experience</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-expand"></i>
+                                                <h3>Expandable</h3>
+                                                <p class="text-muted">Supports customized worlds that can offer a whole new experience, and offers tools to aid in their creation</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-spinner"></i>
+                                                <h3>In-dev</h3>
+                                                <p class="text-muted">This project is in a continuous state of development and improvement</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="https://mielzoo.cloud/login?add-to-cart=85&quantity=1" 
+                                            <i class="fab fa-fw fa-github"></i>Installer
+                                        </a>
+
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a target="_blank" class="btn btn-lg btn-outline-dark" href="https://mielzoo.cloud/login?add-to-cart=85&quantity=1
+"><form action="/testscript/runtmp.php"></form>
+                                            <i class="fab fa-fw fa-github"></i>Utiliser
+                                        </a>
+
+                                    </div>
+                                    <a href="https://mielzoo.cloud/login?add-to-cart=85&quantity=1" 
+  target="popup" 
+  onclick="window.open('https://mielzoo.cloud/login?add-to-cart=85&quantity=1','popup','width=600,height=600'); return false;">
+    Open Link in Popup
+</a>
+<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalNarivia">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-50 w-50">
+                                <div class="portfolio-item-caption-content text-center text-white">Application nummero 1</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/giphy.gif" alt="Narivia" />
+                        </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#, XML</strong></li>
+                                        <li>Technologies: <strong>.NET Core, XNA/MonoGame</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: SokoGrump-->
+        <div class="portfolio-modal modal fade" id="portfolioModalSokoGrump" tabindex="-1" role="dialog" aria-labelledby="portfolioModalSokoGrumpLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalSokoGrumpLabel">SokoGrump</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/sokogrump.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>SokoGrump is a puzzle game similar to the classic Sokoban. It the features the Grumpy Cat trying to push all the crates in a werehouse to their storge locations, without getting stuck.</p>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-puzzle-piece"></i>
+                                                <h3>Puzzle</h3>
+                                                <p class="text-muted">Entertain your brain by solving over 25 mazes of increasing difficulty                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-pencil-alt"></i>
+                                                <h3>Level Editor</h3>
+                                                <p class="text-muted">Create your own mazes and share them with others!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>Source
+                                        </a>
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fas fa-fw fa-download"></i>Download
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core, XNA/MonoGame</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Transliteration API -->
+        
+
+        <!-- Portfolio Modal: Universal Name Generator -->
+        <div class="portfolio-modal modal fade" id="portfolioModalUniversalNameGenerator" tabindex="-1" role="dialog" aria-labelledby="portfolioModalUniversalNameGeneratorLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalUniversalNameGeneratorLabel">Universal Name Generator</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/universal-name-generator.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Tool that can generate accurate new words and names in any given language, be it real or fictional.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-cogs"></i>
+                                                <h3>Markov</h3>
+                                                <p class="text-muted">Support for Markov chains using Katz's back-off model</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-random"></i>
+                                                <h3>Mixer</h3>
+                                                <p class="text-muted">Support for random generation, by mixing different parts together</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-database"></i>
+                                                <h3>Extensive</h3>
+                                                <p class="text-muted">Contains tens of thousands of names for different categories, themes and languages</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fab fa-fw fa-github"></i>Source</a>
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fas fa-fw fa-download"></i>Download</a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core, CLI</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <!-- Portfolio Modal: Universal Name Generator -->
+        <div class="portfolio-modal modal fade" id="portfolioModalNar" tabindex="-1" role="dialog" aria-labelledby="portfolioModalNarLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalNarLabel">Universal Name Generator</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/universal-name-generator.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Tool that can generate accurate new words and names in any given language, be it real or fictional.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-cogs"></i>
+                                                <h3>Markov</h3>
+                                                <p class="text-muted">Support for Markov chains using Katz's back-off model</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-random"></i>
+                                                <h3>Mixer</h3>
+                                                <p class="text-muted">Support for random generation, by mixing different parts together</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-database"></i>
+                                                <h3>Extensive</h3>
+                                                <p class="text-muted">Contains tens of thousands of names for different categories, themes and languages</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fab fa-fw fa-github"></i>Source</a>
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fas fa-fw fa-download"></i>Download</a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core, CLI</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://startbootstrap.github.io/startbootstrap-freelancer/js/scripts.js"></script>
+        <script src="js/hori.js"></script>
+    </body>
+</html>
+
+                                    <!-- mz store-->
+                                    <div class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>.</p>
+                                    <div class="text-center mt-4">
+                                        
+                                    </div>
+                                    <br>
+                                    
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: IPTV Playlist Aggregator -->
+        <div class="portfolio-modal modal fade" id="portfolioModalIptvPlaylistAggregator" tabindex="-1" role="dialog" aria-labelledby="portfolioModalIptvPlaylistAggregatorLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalIptvPlaylistAggregatorLabel">IPTV Playlist Aggregator</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/iptv-playlist-aggregator.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>A tool for downloading IPTV playlists from multiple web sources and aggregating their channels into a single playlist that can be used on any smart TV.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-wind"></i>
+                                                <h3>Lightweight</h3>
+                                                <p class="text-muted">Consumes minimal system resources</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fab fa-4x fa-raspberry-pi"></i>
+                                                <h3>Raspberry Pi</h3>
+                                                <p class="text-muted">Intended to be ran as a scheduled background service on a Raspberry Pi</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-spinner"></i>
+                                                <h3>In-dev</h3>
+                                                <p class="text-muted">This project is in a continuous state of development and improvement</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>Source
+                                        </a>
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fas fa-fw fa-download"></i>Download
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                        <li>Architectures: <strong>x86_64, ARM, ARM64</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Memory Blocks-->
+        <div class="portfolio-modal modal fade" id="portfolioModalMemoryBlocks" tabindex="-1" role="dialog" aria-labelledby="portfolioModalMemoryBlocksLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalMemoryBlocksLabel">Memory Blocks</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/memoryblocks.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Memory Blocks is a puzzle game similar to the classic Sokoban. It the features the Grumpy Cat trying to push all the crates in a werehouse to their storge locations, without getting stuck.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-puzzle-piece"></i>
+                                                <h3>Puzzle</h3>
+                                                <p class="text-muted">Entertain your mind by remembering and matching flipped tiles</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-paint-brush"></i>
+                                                <h3>Stylish</h3>
+                                                <p class="text-muted">Lovely, simplistic images for your comfort</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-heart"></i>
+                                                <h3>Healthy</h3>
+                                                <p class="text-muted">Improves your memory and dexterity, and offers a relaxing experience</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fab fa-fw fa-github"></i>Source</a>
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fas fa-fw fa-download"></i>Download</a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET, Mono, GTK2</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Minesweeper-->
+        <div class="portfolio-modal modal fade" id="portfolioModalMinesweeper" tabindex="-1" role="dialog" aria-labelledby="portfolioModalMinesweeperLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalMinesweeperLabel">Minesweeper</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/minesweeper.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>
+                                        Minesweeper is a very similar game to the original game with the same name. It was created to fill the gap after the original's
+                                        removal from modern Windows releases.
+                                        <br><br> The objective is to carefully clear all the mines on a rectangular board, without
+                                        detonating them.
+                                    </p>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>
+                                            Source
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET, GTK2</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: More Cultural Names-->
+        <div class="portfolio-modal modal fade" id="portfolioModalMoreCulturalNames" tabindex="-1" role="dialog" aria-labelledby="portfolioModalMoreCulturalNamesLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalMoreCulturalNamesLabel">More Cultural Names</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://miro.medium.com/v2/resize:fit:1400/1*B1bqZL0czNvFYlufrFAnzw.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>This is an ambitious mod for various strategy games, that dynamically changes the place names based on the culture of their ruler.</p>
+                                    <br>
+                                    <p>It is based on a carefully selected list of alternate place names in various languages, across various time periods.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-monument"></i>
+                                                <h3>Authentic</h3>
+                                                <p class="text-muted">The names are authentic and uses the best matches for each game's time period</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-expand"></i>
+                                                <h3>Extensive</h3>
+                                                <p class="text-muted">Contains 150.000+ alternate place names</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-user"></i>
+                                                <h3>Community</h3>
+                                                <p class="text-muted">Community feedback and contributions are instrumental to this mod and its success</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"> </i>Source
+                                        </a>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-steam"></i> Download from Steam
+                                        </a>
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fas fa-compress-arrows-alt"></i> Download from Nexus Mods
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li><strong>Supported games:</strong></li>
+                                        <li>Crusader Kings 2</li>
+                                        <li>Crusader Kings 3</li>
+                                        <li>Hearts of Iron IV</li>
+                                        <li>Imperator: Rome</li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Narivia-->
+        <div class="portfolio-modal modal fade" id="portfolioModalNarivia" tabindex="-1" role="dialog" aria-labelledby="portfolioModalNariviaLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalNariviaLabel">Narivia</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/narivia.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Narivia is a free-to-play turn-based strategy game focused on economy and warfare. It is set in a big part of a fictional world called Narivia, containing it's two main continents.</p>
+                                    <br>
+                                    <p>The player must lead their people to the ultimate victory, by raising the country’s economy and expanding its territories using military force. The enemies will share the same dream and will not give up their territories easily, challenging tactical scenarios that the player must overcome.</p>
+                                    <br>
+                                    <p>The player has at its disposal an array of units and buildings that can be created, each being specific to the faction’s culture.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-chess-rook"></i>
+                                                <h3>Strategy</h3>
+                                                <p class="text-muted">Offers a classic 4x turn-based strategy game experience</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-expand"></i>
+                                                <h3>Expandable</h3>
+                                                <p class="text-muted">Supports customized worlds that can offer a whole new experience, and offers tools to aid in their creation</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-spinner"></i>
+                                                <h3>In-dev</h3>
+                                                <p class="text-muted">This project is in a continuous state of development and improvement</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="https://mielzoo.cloud/login?add-to-cart=85&quantity=1" 
+                                            <i class="fab fa-fw fa-github"></i>Installer
+                                        </a>
+
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a target="_blank" class="btn btn-lg btn-outline-dark" href="https://mielzoo.cloud/login?add-to-cart=85&quantity=1
+"><form action="/testscript/runtmp.php"></form>
+                                            <i class="fab fa-fw fa-github"></i>Utiliser
+                                        </a>
+
+                                    </div>
+                                    <a href="https://mielzoo.cloud/login?add-to-cart=85&quantity=1" 
+  target="popup" 
+  onclick="window.open('https://mielzoo.cloud/login?add-to-cart=85&quantity=1','popup','width=600,height=600'); return false;">
+    Open Link in Popup
+</a>
+<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalNarivia">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-50 w-50">
+                                <div class="portfolio-item-caption-content text-center text-white">Application nummero 1</div>
+                            </div>
+                            <img class="img-fluid" src="store/assets/img/portfolio/giphy.gif" alt="Narivia" />
+                        </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#, XML</strong></li>
+                                        <li>Technologies: <strong>.NET Core, XNA/MonoGame</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: SokoGrump-->
+        <div class="portfolio-modal modal fade" id="portfolioModalSokoGrump" tabindex="-1" role="dialog" aria-labelledby="portfolioModalSokoGrumpLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalSokoGrumpLabel">SokoGrump</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/sokogrump.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>SokoGrump is a puzzle game similar to the classic Sokoban. It the features the Grumpy Cat trying to push all the crates in a werehouse to their storge locations, without getting stuck.</p>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-puzzle-piece"></i>
+                                                <h3>Puzzle</h3>
+                                                <p class="text-muted">Entertain your brain by solving over 25 mazes of increasing difficulty                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-pencil-alt"></i>
+                                                <h3>Level Editor</h3>
+                                                <p class="text-muted">Create your own mazes and share them with others!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fab fa-fw fa-github"></i>Source
+                                        </a>
+                                        <a class="btn btn-lg btn-outline-dark" href="">
+                                            <i class="fas fa-fw fa-download"></i>Download
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core, XNA/MonoGame</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal: Transliteration API -->
+        
+
+        <!-- Portfolio Modal: Universal Name Generator -->
+        <div class="portfolio-modal modal fade" id="portfolioModalUniversalNameGenerator" tabindex="-1" role="dialog" aria-labelledby="portfolioModalUniversalNameGeneratorLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalUniversalNameGeneratorLabel">Universal Name Generator</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/universal-name-generator.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Tool that can generate accurate new words and names in any given language, be it real or fictional.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-cogs"></i>
+                                                <h3>Markov</h3>
+                                                <p class="text-muted">Support for Markov chains using Katz's back-off model</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-random"></i>
+                                                <h3>Mixer</h3>
+                                                <p class="text-muted">Support for random generation, by mixing different parts together</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-database"></i>
+                                                <h3>Extensive</h3>
+                                                <p class="text-muted">Contains tens of thousands of names for different categories, themes and languages</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fab fa-fw fa-github"></i>Source</a>
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fas fa-fw fa-download"></i>Download</a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core, CLI</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <!-- Portfolio Modal: Universal Name Generator -->
+        <div class="portfolio-modal modal fade" id="portfolioModalNar" tabindex="-1" role="dialog" aria-labelledby="portfolioModalNarLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModalNarLabel">Universal Name Generator</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="store/assets/img/portfolio/universal-name-generator.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>Tool that can generate accurate new words and names in any given language, be it real or fictional.</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-cogs"></i>
+                                                <h3>Markov</h3>
+                                                <p class="text-muted">Support for Markov chains using Katz's back-off model</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-random"></i>
+                                                <h3>Mixer</h3>
+                                                <p class="text-muted">Support for random generation, by mixing different parts together</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 text-center">
+                                            <div class="feature-box">
+                                                <i class="fas fa-4x fa-database"></i>
+                                                <h3>Extensive</h3>
+                                                <p class="text-muted">Contains tens of thousands of names for different categories, themes and languages</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fab fa-fw fa-github"></i>Source</a>
+                                        <a class="btn btn-lg btn-outline-dark" href=""><i class="fas fa-fw fa-download"></i>Download</a>
+                                    </div>
+                                    <br>
+                                    <ul class="list-inline item-details">
+                                        <li>Language: <strong>C#</strong></li>
+                                        <li>Technologies: <strong>.NET Core, CLI</strong></li>
+                                        <li>Operating Systems: <strong>Windows, Mac, Linux</strong></li>
+                                    </ul>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://startbootstrap.github.io/startbootstrap-freelancer/js/scripts.js"></script>
+        <script src="js/hori.js"></script>
+    </body>
+</html>
+
